@@ -1,1 +1,1 @@
-Form Registrasi terad dakwah
+Form Registrasi teras dakwah
