@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Form Pendaftaran Kajian Teras Dakwah</title>
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Font-->
+    <link rel="stylesheet" type="text/css" href="css/opensans-font.css">
+    <link rel="stylesheet" type="text/css"
+          href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+    <!-- Main Style Css -->
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div class="page-content">
+    <div class="form-v1-content">
+        <div class="wizard-form">
+            <form class="form-register" action="#" method="post">
+                <div id="form-total">
+                    <!-- SECTION 1 -->
+                    <h2>
+                        <p class="step-icon"><span>01</span></p>
+                        <span class="step-text">Data Diri</span>
+                    </h2>
+                    <section>
+                        <div class="inner">
+                            <div class="wizard-header">
+                                <h3 class="heading">Data Diri</h3>
+                                <p>Sebelum #ngajiteras daftar dulu ya serta ikutin aturan mainnya biar tetap bisa nyaman
+                                    dan aman untuk semuanya heheh</p>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-holder form-holder-2">
+                                    <fieldset>
+                                        <legend>Email address</legend>
+                                        <input type="text" name="your_email" id="email" class="form-control"
+                                               pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="example@email.com"
+                                               required>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-holder form-holder-2">
+                                    <fieldset>
+                                        <legend>Nama Lengkap kamu siapa sih?</legend>
+                                        <input type="text" class="form-control" id="nama-lengkap" name="nama-lengkap"
+                                               placeholder="Nama Lengkap" required>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-holder form-holder-2">
+                                    <fieldset>
+                                        <legend>Sekarang tinggal dimana?</legend>
+                                        <input type="text" class="form-control" id="tempat-tinggal"
+                                               name="tempat-tinggal" placeholder="Tempat tinggal" required>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-holder form-holder-2">
+                                    <fieldset>
+                                        <legend>Punya Nomer WA Aktif kan?</legend>
+                                        <input type="text" class="form-control" id="wa" name="wa"
+                                               placeholder="+628xxxxxxx" required>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+                    <!-- SECTION 2 -->
+                    <h2>
+                        <p class="step-icon"><span>02</span></p>
+                        <span class="step-text">Informasi tambahan</span>
+                    </h2>
+                    <section>
+                        <div class="inner">
+                            <div class="wizard-header">
+                                <h3 class="heading">Informasi tambahan</h3>
+                                <p>Jawab dengan jujur ya😊</p>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-holder form-holder-2">
+                                    <fieldset>
+                                        <legend>Pekerjaan mu apa sih?</legend>
+                                        <input type="text" class="form-control" id="pekerjaan" name="pekerjaaan"
+                                               placeholder="Pekekerjaan" required>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-holder form-holder-2">
+                                    <fieldset>
+                                        <legend>Apakah sebelumnya pernah berpergian ke luar kota dalam 14 hari ini?
+                                        </legend>
+                                        <div class="form-radio">
+                                            <input class="input-radio" id="radio-keluar-kota-1" type="radio"
+                                                   name="keluar-kota" value="pernah">
+                                            <label class="label-radio" for="radio-keluar-kota-1">Pernah</label>
+                                        </div>
+                                        <div class="form-radio">
+                                            <input class="input-radio" id="radio-keluar-kota-2" type="radio"
+                                                   name="keluar-kota" value="belum">
+                                            <label class="label-radio" for="radio-keluar-kota-2">Belum</label>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-holder form-holder-2">
+                                    <fieldset>
+                                        <legend>Disekitar rumahmu ada yang berstatus positif Covid-19, ODP atau PDP ga?
+                                        </legend>
+                                        <div class="form-radio">
+                                            <input class="input-radio" id="status-lingkungan-radio1" type="radio"
+                                                   name="status-lingkungan" value="Ada">
+                                            <label class="label-radio" for="status-lingkungan-radio1">Ada</label>
+                                        </div>
+                                        <div class="form-radio">
+                                            <input class="input-radio" id="status-lingkungan-radio2" type="radio"
+                                                   name="status-lingkungan" value="Tidak">
+                                            <label class="label-radio" for="status-lingkungan-radio2">Tidak</label>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-holder form-holder-2">
+                                    <fieldset>
+                                        <legend>Dalam 14 hari ini sedang pilek, flu, demam, atau sakit tenggorokan?
+                                        </legend>
+                                        <div class="form-radio">
+                                            <input class="input-radio" id="sakit-radio1" type="radio" name="sakit"
+                                                   value="Ya">
+                                            <label class="label-radio" for="sakit-radio1">Ya</label>
+                                        </div>
+                                        <div class="form-radio">
+                                            <input class="input-radio" id="sakit-radio2" type="radio" name="sakit"
+                                                   value="Tidak">
+                                            <label class="label-radio" for="sakit-radio2">Tidak</label>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-holder form-holder-2">
+                                    <fieldset>
+                                        <legend>Kamu ada masalah dengan indra penciumanmu?
+                                        </legend>
+                                        <div class="form-radio">
+                                            <input class="input-radio" id="masalah-indra-penciuman-radio-1" type="radio"
+                                                   name="masalah-indra-penciuman" value="Ya">
+                                            <label class="label-radio" for="masalah-indra-penciuman-radio-1">Ya</label>
+                                        </div>
+                                        <div class="form-radio">
+                                            <input class="input-radio" id="masalah-indra-penciuman-radio-2" type="radio"
+                                                   name="masalah-indra-penciuman" value="Tidak">
+                                            <label class="label-radio"
+                                                   for="masalah-indra-penciuman-radio-2">Tidak</label>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- SECTION 3 -->
+                    <h2>
+                        <p class="step-icon"><span>03</span></p>
+                        <span class="step-text">Persetujuan</span>
+                    </h2>
+                    <section>
+                        <div class="inner">
+                            <div class="wizard-header">
+                                <h3 class="heading">Persetujuan</h3>
+                                <p>Dengan ini, saya mengisi dengan jujur dan sadar. Adanya masalah di masa depan yang
+                                    disebabkan oleh saya, saya siap bertanggungjawab</p>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-holder form-holder-2">
+                                    <fieldset>
+                                        <legend>Apakah kamu siap?
+                                        </legend>
+                                        <div class="form-checkbox">
+                                            <label class="container"><p>SIAP</p>
+                                                <input type="checkbox" name="checkbox" required>
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.steps.js"></script>
+<script src="js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
